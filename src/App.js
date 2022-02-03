@@ -74,8 +74,7 @@ function App() {
             />
             <label htmlFor="userSayHi">Enter your best greetings!</label>
             <button onClick={setGreeting} type="submit">Send to Blockchain</button>
-            {
-              greeting &&
+            {greeting &&
                 <p>The current greeting is: "{greeting}"</p>
             }
             {nextGreeting &&

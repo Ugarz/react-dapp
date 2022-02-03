@@ -1,3 +1,5 @@
+![](https://github.com/Ugarz/react-dapp/blob/main/public/homepage.jpg?raw=true)
+
 # Dead simple React Dapp
 I'm in the crypto universe for several years now, I enjoy the blockchain dev ecosystem for a long time.
 By this project aim to explore the `React.js Dapp stack` in a simple and comprehensive repo.
