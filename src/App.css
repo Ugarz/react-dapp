@@ -1,10 +1,80 @@
+:root {
+  font-size: 16px;
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2 {
+  font-size: 1.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+form > label {
+  font-size: 1rem;
+}
+
+button {
+  display: inline-block;
+  background-color: #61dafb;
+  border-radius: 20px;
+  color: black;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1em;
+  margin: 1em;
+  width: auto;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  border: 3px solid white;
+  border-radius: 20px;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  -webkit-box-shadow:
+    inset 0 0 8px  rgba(0,0,0,0.1),
+          0 0 16px rgba(70, 65, 65, 0.1);
+  -moz-box-shadow:
+    inset 0 0 8px  rgba(0,0,0,0.1),
+          0 0 16px rgba(0,0,0,0.1);
+  box-shadow:
+    inset 0 0 8px  rgba(0,0,0,0.1),
+          0 0 16px rgba(0,0,0,0.1);
+  padding: 15px;
+  background: rgba(255,255,255,0.5);
+}
+ul {
+  width: 100%;
+  max-width: 768px;
+  font-size: 1rem;
+  text-align: left;
+  overflow-x: scroll;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,7 +83,9 @@
   }
 }
 
-.App-header {
+header {
+  display: flex;
+  flex-direction: column;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
