@@ -20,6 +20,8 @@ Here you can find a list of tools I will be using to make this work.
 |[React.js](https://reactjs.org/)| A for Front-End library, barely known but promising|
 |[Infura](https://infura.io/)| A Blockchain development Suite, used to deploy to the Ropsten testing network|
 |[Ropsten Ethereum Faucet](https://faucet.ropsten.be/)| Allow you to send fake ETH on your wallet on the Ropsten testnet.|
+|[Ropsten Ethereum Faucet Dimensions network](https://faucet.dimensions.network/)|An alternative to faucet.ropsten.be to ask for free fake Ethereum every 24h|
+|[Ropsten Ethereum Faucet by Metamask](https://faucet.metamask.io/)|Another alternative to ask for free fake Ethereum every 24h by Metamask|
 
 
 # Getting Started
@@ -47,7 +49,7 @@ module.exports = {
 };
 ```
 
-Next you will be able to add supports for diffrent networks in a `networks` key. The `chainId` is specific to the way hardhat works.
+Next you will be able to add supports for diffrent networks in a `networks` key. The `chainId` is specific to the way hardhat works this is your `localhost` network but next we will be able to add the Ropsten Network.
 ```js
 module.exports = {
   solidity: "0.8.11",
