@@ -1,4 +1,4 @@
-![](https://github.com/Ugarz/react-dapp/blob/main/public/homepage.jpg?raw=true)
+![](https://github.com/Ugarz/react-dapp/blob/main/public/homepage.png?raw=true)
 
 # Dead simple React Dapp
 I'm in the crypto universe for several years now, I enjoy the blockchain dev ecosystem for a long time.
